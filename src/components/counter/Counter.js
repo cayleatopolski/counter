@@ -26,12 +26,10 @@ const Counter = () => {
 
   return (
     <div className={styles.counterWrapper}>
-      {/* <div> */}
       <h1 className={styles.counter} style={{ color: color }}>
         {count}
       </h1>
       <p>You've clicked {totalCount} times!</p>
-      {/* </div> */}
       <div>
         <Button onClick={() => subtract()}>-</Button>
         <Button onClick={() => add()}>+</Button>
