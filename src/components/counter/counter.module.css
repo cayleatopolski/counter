@@ -1,3 +1,25 @@
+.counterWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80vw;
+  height: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 0px 21px 3px rgba(205, 135, 240, 1);
+  -moz-box-shadow: 0px 0px 21px 3px rgba(205, 135, 240, 1);
+  box-shadow: 0px 0px 21px 3px rgba(205, 135, 240, 1);
+  border-radius: 10px;
+}
+
 .counter {
   font-size: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  .counterWrapper {
+    width: 30vw;
+  }
 }

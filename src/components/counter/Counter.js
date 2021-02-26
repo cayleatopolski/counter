@@ -25,7 +25,7 @@ const Counter = () => {
   };
 
   return (
-    <div>
+    <div className={styles.counterWrapper}>
       <div>
         <h1 className={styles.counter} style={{ color: color }}>
           {count}

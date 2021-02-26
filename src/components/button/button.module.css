@@ -8,16 +8,18 @@
   font-weight: 700;
   color: #be11cc;
   transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+.btn:focus {
+  outline: none;
+  transform: scale(1.1);
+  background-color: rgba(249, 231, 250, 0.5);
 }
 
 .btn:hover {
   border-color: #11ccbe;
   color: #11ccbe;
+  background-color: rgba(17, 204, 190, 0.5);
   cursor: pointer;
-}
-
-.btn:focus {
-  outline: none;
-  transform: scale(1.08);
-  background-color: rgba(249, 231, 250, 0.5);
 }
