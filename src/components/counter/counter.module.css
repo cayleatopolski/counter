@@ -17,7 +17,7 @@
 
 .counter {
   font-size: 60px;
-  margin-bottom: 15px;
+  margin: 0 0 15px 0;
 }
 
 @media only screen and (min-width: 768px) {
