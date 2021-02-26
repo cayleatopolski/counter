@@ -20,6 +20,6 @@
 .btn:hover {
   border-color: #11ccbe;
   color: #11ccbe;
-  background-color: rgba(17, 204, 190, 0.5);
+  background-color: rgba(17, 204, 190, 0.2);
   cursor: pointer;
 }

@@ -1,6 +1,7 @@
 .counterWrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
   width: 80vw;
   height: 50vh;
@@ -16,6 +17,7 @@
 
 .counter {
   font-size: 60px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (min-width: 768px) {
