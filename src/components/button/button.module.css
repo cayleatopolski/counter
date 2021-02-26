@@ -7,9 +7,17 @@
   margin: 20px;
   font-weight: 700;
   color: #be11cc;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
   border-color: #11ccbe;
   color: #11ccbe;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+  transform: scale(1.08);
+  background-color: rgba(249, 231, 250, 0.5);
 }
